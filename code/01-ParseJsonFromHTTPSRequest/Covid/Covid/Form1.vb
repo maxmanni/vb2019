@@ -58,4 +58,7 @@ Public Class Form1
         txtDataOra.Text = currentElement.Data.ToString("dd/MM/yyyy hh.mm")
     End Sub
 
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

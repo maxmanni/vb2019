@@ -31,6 +31,8 @@ Partial Class Form1
         Me.txtTotale = New System.Windows.Forms.TextBox()
         Me.txtGuariti = New System.Windows.Forms.TextBox()
         Me.txtDeceduti = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.txtDataOra = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Carica
@@ -53,7 +55,7 @@ Partial Class Form1
         'cbRegioni
         '
         Me.cbRegioni.FormattingEnabled = True
-        Me.cbRegioni.Location = New System.Drawing.Point(552, 54)
+        Me.cbRegioni.Location = New System.Drawing.Point(508, 13)
         Me.cbRegioni.Name = "cbRegioni"
         Me.cbRegioni.Size = New System.Drawing.Size(121, 23)
         Me.cbRegioni.TabIndex = 2
@@ -106,11 +108,29 @@ Partial Class Form1
         Me.txtDeceduti.Size = New System.Drawing.Size(100, 23)
         Me.txtDeceduti.TabIndex = 8
         '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(508, 94)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(60, 15)
+        Me.Label4.TabIndex = 9
+        Me.Label4.Text = "Data e ora"
+        '
+        'txtDataOra
+        '
+        Me.txtDataOra.Location = New System.Drawing.Point(623, 86)
+        Me.txtDataOra.Name = "txtDataOra"
+        Me.txtDataOra.Size = New System.Drawing.Size(100, 23)
+        Me.txtDataOra.TabIndex = 10
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.txtDataOra)
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.txtDeceduti)
         Me.Controls.Add(Me.txtGuariti)
         Me.Controls.Add(Me.txtTotale)
@@ -121,7 +141,7 @@ Partial Class Form1
         Me.Controls.Add(Me.rtbJsonData)
         Me.Controls.Add(Me.Carica)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Data e ora"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -136,4 +156,6 @@ Partial Class Form1
     Friend WithEvents txtTotale As TextBox
     Friend WithEvents txtGuariti As TextBox
     Friend WithEvents txtDeceduti As TextBox
+    Friend WithEvents Label4 As Label
+    Friend WithEvents txtDataOra As TextBox
 End Class
