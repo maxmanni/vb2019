@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Nt1+mlaCFWHJMlre1pN18e/obgzoK2e2kF4wpyfEhPsnq74aA3Qegr7AbAH42YCMN56RMqrpQlNSIglvNrKmDA==",
+  "success": true,
+  "projectFilePath": "D:\\Data\\max\\repos\\vb2010\\code\\17-ParseJsonFromHTTPSRequest\\Covid\\Covid\\Covid.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\massi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
