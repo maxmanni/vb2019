@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Data\\max\\repos\\vb2010\\code\\17-ParseJsonFromHTTPSRequest\\Covid\\Covid\\Covid.vbproj": {}
+    "D:\\Data\\max\\repos\\vb2019\\code\\01-ParseJsonFromHTTPSRequest\\Covid\\Covid\\Covid.vbproj": {}
   },
   "projects": {
-    "D:\\Data\\max\\repos\\vb2010\\code\\17-ParseJsonFromHTTPSRequest\\Covid\\Covid\\Covid.vbproj": {
+    "D:\\Data\\max\\repos\\vb2019\\code\\01-ParseJsonFromHTTPSRequest\\Covid\\Covid\\Covid.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Data\\max\\repos\\vb2010\\code\\17-ParseJsonFromHTTPSRequest\\Covid\\Covid\\Covid.vbproj",
+        "projectUniqueName": "D:\\Data\\max\\repos\\vb2019\\code\\01-ParseJsonFromHTTPSRequest\\Covid\\Covid\\Covid.vbproj",
         "projectName": "Covid",
-        "projectPath": "D:\\Data\\max\\repos\\vb2010\\code\\17-ParseJsonFromHTTPSRequest\\Covid\\Covid\\Covid.vbproj",
+        "projectPath": "D:\\Data\\max\\repos\\vb2019\\code\\01-ParseJsonFromHTTPSRequest\\Covid\\Covid\\Covid.vbproj",
         "packagesPath": "C:\\Users\\massi\\.nuget\\packages\\",
-        "outputPath": "D:\\Data\\max\\repos\\vb2010\\code\\17-ParseJsonFromHTTPSRequest\\Covid\\Covid\\obj\\",
+        "outputPath": "D:\\Data\\max\\repos\\vb2019\\code\\01-ParseJsonFromHTTPSRequest\\Covid\\Covid\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

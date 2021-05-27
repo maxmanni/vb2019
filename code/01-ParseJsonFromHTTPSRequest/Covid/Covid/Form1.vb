@@ -49,13 +49,16 @@ Public Class Form1
 
     End Sub
 
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
 
     Private Sub cbRegioni_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbRegioni.SelectedIndexChanged
         Dim currentElement As DatiCovidRegione
         currentElement = cbRegioni.SelectedItem
+        txtTotale.Text = currentElement.TotaleCasi.ToString()
+        txtDeceduti.Text = currentElement.Deceduti.ToString()
+        txtGuariti.Text = currentElement.DimessiGuariti.ToString()
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class
